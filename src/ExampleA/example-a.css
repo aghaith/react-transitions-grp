@@ -1,0 +1,35 @@
+/* Start Appear Transition */
+.my-class-appear {
+    opacity: 0;
+}
+.my-class-appear-active {
+    opacity: 1;
+    transition: opacity 5000ms;
+}
+/* End Appear Transition */
+
+/* Start Enter Transition */
+.my-class-enter {
+    opacity: 0;
+}
+.my-class-enter-active {
+    opacity: 1;
+    transition: opacity 5000ms;
+}
+.my-class-enter-done {
+    opacity: 1;
+}
+/* End Enter Transition */
+
+/* Start Exit Transition */
+.my-class-exit {
+    opacity: 1;
+}
+.my-class-exit-active {
+    opacity: 0;
+    transition: opacity 5000ms;
+}
+.my-class-exit-done {
+    opacity: 0;
+}
+/* End Exit Transition */
